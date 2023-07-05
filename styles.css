@@ -2,6 +2,7 @@ body {
   min-width: 375px;
   margin: 0;
   padding: 0;
+
   /* box-sizing: border-box; */
 }
 
@@ -27,7 +28,7 @@ header {
 }
 
 h1 {
-  font-family: Playfair Display, arial;
+  font-family: Playfair Display, arial, sans-serif;
   font-size: 50px;
   font-weight: 400;
 }
@@ -40,7 +41,7 @@ h1 {
 }
 
 .text p {
-  font-family: Poppins, arial;
+  font-family: Poppins, arial, sans-serif;
   font-size: 0.875rem;
   line-height: 1.313rem;
   letter-spacing: -0.01rem;
@@ -52,7 +53,7 @@ h1 {
   margin: 1rem 2rem;
   background-color: #1a2236;
   color: white;
-  font-family: Poppins, arial;
+  font-family: Poppins, arial, sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
