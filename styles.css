@@ -2,17 +2,8 @@ body {
   min-width: 375px;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
-
-/* nav {
-  background-image: url(./icons/image_geometry_1.png);
-  background-repeat: no-repeat;
-  height: 4.625rem;
-  display: flex;
-  /* align-items: center;
-  justify-items: flex-end;
-} */
 
 .menu {
   width: 1.25rem;
@@ -72,7 +63,6 @@ h1 {
 
 .image1 {
   background-image: url(icons/image_geometry_2.png);
-  display: flex;
   width: 20rem;
   height: 10rem;
 }
