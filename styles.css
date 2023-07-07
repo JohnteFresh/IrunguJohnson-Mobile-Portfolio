@@ -27,11 +27,6 @@ header {
   justify-content: flex-start;
 }
 
-h1 {
-  font-family: Playfair Display, arial, sans-serif;
-  font-size: 3.125rem;
-  font-weight: 400;
-}
 
 .container {
   display: flex;
@@ -39,9 +34,15 @@ h1 {
   align-self: auto;
   margin: -1.875rem 1.25rem 1.25rem 1.25rem;
 }
+.container h1 {
+  font-family: 'Playfair Display', arial, sans-serif;
+  font-size: 3.125rem;
+  font-weight: 400;
+}
+
 
 .container p {
-  font-family: Poppins, arial, sans-serif;
+  font-family: 'Poppins', arial, sans-serif;
   font-size: 0.875rem;
   margin-top: -2.188rem;
 }
@@ -74,8 +75,11 @@ h1 {
   grid-template-rows: min-content;
 }
 
-.projects-container > h1 {
+.projects-container h1 {
   margin: 1.25rem;
+  font-family: 'Playfair Display', arial, sans-serif;
+  font-size: 3.125rem;
+  font-weight: 400;
 }
 
 .preview {
@@ -88,39 +92,34 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 0.625rem;
-
 }
 
 .project-name {
   color: white;
-  font-family: Poppins, arial;
+  font-family: 'Poppins', arial;
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1rem;
-  margin-left: 20px;
 }
+
 
 .tech-list {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -3rem;
-  margin-left: -20px;
+  justify-content: space-between;
+  list-style: none;
+  font-family: 'Poppins', arial;
+  font-size: 0.625rem;
+  font-weight: 300; 
+  font-family: 'Poppins', arial;
+  margin-bottom: 6.25rem;
+  padding: 0 5px;
 
 }
-
-.tech-list > li {
+.tech-list li {
+  margin-right: 3.125rem;
   background-color: #98DEDE;
-  list-style-type: none;
-  font-family: Poppins;
-  font-size: 10px;
-  font-weight: 300;
-  /* margin-top: -1.5rem; */
-  padding: 5px;
-
-  
-
 }
+
 
 .see-project {
   color: white;
@@ -129,8 +128,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: 90%;
   width: 8.125rem;
-  margin-top: -0.25rem;
-  margin-left: 20px;
+  margin-top: -5.25rem;
   padding: 0.625rem;
   font-weight: 500;
   font-size: 1rem;
@@ -141,56 +139,58 @@ h1 {
 .about-me-container {
 display: flex;
 flex-direction: column;
-margin-top: 1.5rem;
+margin-top: 0rem;
 margin-right: 0.875rem;
-margin-bottom: 1.688rem;
 margin-left: 1rem;
+box-sizing: border-box;
 }
 
-.knowledge-container {
-  display: grid;
-  grid-template-rows: 289px 289px 289px;
-
-}
-
-.heading2 {
-  font-family: Playfair Display, arial;
-  font-size: 50px;
+.about-me-container h1 {
+  font-family: 'Playfair Display', arial;
   font-weight: 400;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
+  line-height: 3.125rem;
+  font-size: 3.125rem;
 }
 
 .description {
-  font-family: Poppins, arial;
-  font-size: 14px;
+  font-family: 'Poppins', arial;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.313rem;
   letter-spacing: 0em;
-  text-align: left;
+  margin-top: -1.875rem;
 }
 
 .cv-button {
-  width: 288px;
-  height: 50px;
+  width: 100%;
+  height: 3.125rem;
   background-color: #1A2236;
   color: white;
-  font-family: Poppins, arial;
-  font-size: 16px;
+  font-family: 'Poppins', arial;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: center;
   background-image: url(icons/ic_download.svg);
   background-repeat: no-repeat;
-  background-position: 80%;
-  margin-bottom: 20px;
+  background-position: 75%;
+  margin-bottom: 1.25rem;
 }
+
+
+.knowledge-container {
+  display: grid;
+  grid-template-rows: 18.063rem 18.063rem 18.063rem;
+  gap: 0.625rem;
+  padding-bottom: 1.25rem;
+
+}
+
 
 .language {
   background-color: #1C528A;
-  background-image: url(icons/#.png);
+  background-image: url(icons/ic_languages_mob.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   color: white;
@@ -210,53 +210,55 @@ margin-left: 1rem;
   background-repeat: no-repeat;
   background-position: right bottom;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
-h3 {
-  font-family: Poppins, arial;
-  font-size: 20px;
+
+.know-h3 {
+  font-family: 'Poppins', arial;
+  font-size: 1.25rem;
   font-weight: 800;
-  line-height: 30px;
-  margin-left: 66px;
-  width: 116px;
-  height: 30px;
+  line-height: 1.875rem;
+  margin-left: 4.125rem;
+  width: 7.25rem;
+  height: 1.875rem;
 
 }
 
-ul {
-
-font-family: Poppins, arial;
-font-size: 18px;
+.knowledge-container ul {
+font-family: 'Poppins', arial;
+font-size: 1rem;
 font-weight: 600;
-line-height: 27px;
+line-height: 1.688rem;
 letter-spacing: -0.0525em;
 text-align: left;
-width: 178px;
-height: 135px;
-margin-left: 46px;
+width: 11.125rem;
+height: 8.438rem;
+margin-left: 2.875rem;
 }
+
 .contact-me {
   background-color: #F9F9FA;
   background-image: url(icons/image_geometry_1.png);
   background-repeat: no-repeat;
   padding: 6.625rem 0.875rem 1.94rem 1.125rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   min-height: auto;
 }
 
 .getstarted {
-  font-family: Playfair Display, arial;
-  font-size: 50px;
+  font-family: 'Playfair Display', arial;
+  font-size: 3.125rem;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 3.125rem;
   margin-bottom: 1.25rem;
 
 }
 
 .interest {
-  font-family: Poppins, arial;
-  font-size: 14px;
+  font-family: 'Poppins', arial;
+  font-size: 0.875rem;
   font-weight: 400;
   margin-bottom: 0.875rem;
 
@@ -267,17 +269,17 @@ label {
   font-size: 0.625rem;
   color: #7d7c84;
 }
- input {
-  margin-bottom: 20px;
+.contact-me input {
+  margin-bottom: 1.25x;
  }
 
- textarea {
+.contact-me textarea {
   height: 7rem;
   padding: 0.875rem 1rem;
   display: block;
   width: 100%;
-  border: 1px solid lightgray;
-  border-radius: 5px;
+  border: 0.063rem solid lightgray;
+  border-radius: 0.313rem;
   box-sizing: border-box;
   margin: 0;
   font-size: 0.875rem;
@@ -292,8 +294,8 @@ label {
   padding: 1.44rem 1rem 0.31rem 1rem;
   display: block;
   width: 100%;
-  border: 1px solid #dfdfe0;
-  border-radius: 4px;
+  border: 0.063rem solid #dfdfe0;
+  border-radius: 0.313;
   box-sizing: border-box;
   align-items: flex-start;
   font-size: 0.875rem;
@@ -346,8 +348,7 @@ label {
   padding: 1.75rem 0.875rem 2.25rem 1.125rem;
   background-color: #1A2236;
   width: 100%;
-  height: 100px;
-
+  height: 6.25rem;
 }
 
 
