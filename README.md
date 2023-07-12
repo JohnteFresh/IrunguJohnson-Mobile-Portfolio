@@ -119,7 +119,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Johnson Irungu**
 
@@ -133,9 +132,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[My contacts]**
+- [ ] **[JavaScript functionality]**
 - [ ] **[My location]**
 - [ ] **[Available time]**
 
@@ -163,6 +161,108 @@ If you like this project rate it on GitHub
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse for the learning material they have provided.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+A browser (supporting HTML5 and CSS3)
+
+### Setup
+
+Login to your GitHub account.
+Clone this repository to your desired folder:
+cd my-folder
+  git clone https://github.com/JohnteFresh/IrunguJohnson-Mobile-Portfolio.git
+
+### Install
+
+Install this project with:
+
+### Usage
+To use this project:
+1. Open index.html and styles.css file in your code editor.
+2. Open using live server.
+3. Play around with the code and see the results in your browser window.
+
+### Run tests
+
+To run tests, run the following command:
+
+npx hint .
+npx stylelint "**/*.{css,scss}"
+
+### Deployment
+
+You can deploy this project using:
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Johnson Irungu**
+
+- GitHub: [@githubhandle]([https://github.com/githubhandle](https://github.com/JohnteFresh))
+- Twitter: [@twitterhandle]([https://twitter.com/twitterhandle](https://twitter.com/RoadKing254))
+- LinkedIn: [LinkedIn]([https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/johnson-irungu-85475a268/))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[JavaScript functionality]**
+- [ ] **[My location]**
+- [ ] **[Available time]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project rate it on GitHub
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for the learning material and environment they have provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
